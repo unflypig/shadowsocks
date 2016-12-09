@@ -1,0 +1,421 @@
+ss_redir-encrypt.o: encrypt.c \
+ /home/zt/chaos_calmer/staging_dir/toolchain-mipsel_1004kc+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/lib/gcc/mipsel-openwrt-linux-uclibc/4.8.3/include/stdint.h \
+ /home/zt/chaos_calmer/staging_dir/toolchain-mipsel_1004kc+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/include/stdint.h \
+ /home/zt/chaos_calmer/staging_dir/toolchain-mipsel_1004kc+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/include/features.h \
+ /home/zt/chaos_calmer/staging_dir/toolchain-mipsel_1004kc+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/include/bits/uClibc_config.h \
+ /home/zt/chaos_calmer/staging_dir/toolchain-mipsel_1004kc+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/include/sys/cdefs.h \
+ /home/zt/chaos_calmer/staging_dir/toolchain-mipsel_1004kc+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/include/bits/wchar.h \
+ /home/zt/chaos_calmer/staging_dir/toolchain-mipsel_1004kc+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/include/bits/wordsize.h \
+ ../config.h \
+ /home/zt/chaos_calmer/staging_dir/target-mipsel_1004kc+dsp_uClibc-0.9.33.2/usr/include/polarssl/md5.h \
+ /home/zt/chaos_calmer/staging_dir/target-mipsel_1004kc+dsp_uClibc-0.9.33.2/usr/include/polarssl/config.h \
+ /home/zt/chaos_calmer/staging_dir/target-mipsel_1004kc+dsp_uClibc-0.9.33.2/usr/include/polarssl/check_config.h \
+ /home/zt/chaos_calmer/staging_dir/toolchain-mipsel_1004kc+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/include/string.h \
+ /home/zt/chaos_calmer/staging_dir/toolchain-mipsel_1004kc+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/lib/gcc/mipsel-openwrt-linux-uclibc/4.8.3/include/stddef.h \
+ /home/zt/chaos_calmer/staging_dir/toolchain-mipsel_1004kc+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/include/inttypes.h \
+ /home/zt/chaos_calmer/staging_dir/target-mipsel_1004kc+dsp_uClibc-0.9.33.2/usr/include/polarssl/entropy.h \
+ /home/zt/chaos_calmer/staging_dir/target-mipsel_1004kc+dsp_uClibc-0.9.33.2/usr/include/polarssl/sha512.h \
+ /home/zt/chaos_calmer/staging_dir/target-mipsel_1004kc+dsp_uClibc-0.9.33.2/usr/include/polarssl/ctr_drbg.h \
+ /home/zt/chaos_calmer/staging_dir/target-mipsel_1004kc+dsp_uClibc-0.9.33.2/usr/include/polarssl/aes.h \
+ /home/zt/chaos_calmer/staging_dir/target-mipsel_1004kc+dsp_uClibc-0.9.33.2/usr/include/polarssl/version.h \
+ /home/zt/chaos_calmer/staging_dir/toolchain-mipsel_1004kc+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/include/time.h \
+ /home/zt/chaos_calmer/staging_dir/toolchain-mipsel_1004kc+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/include/bits/time.h \
+ /home/zt/chaos_calmer/staging_dir/toolchain-mipsel_1004kc+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/include/bits/uClibc_clk_tck.h \
+ /home/zt/chaos_calmer/staging_dir/toolchain-mipsel_1004kc+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/include/bits/types.h \
+ /home/zt/chaos_calmer/staging_dir/toolchain-mipsel_1004kc+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/include/bits/typesizes.h \
+ /home/zt/chaos_calmer/staging_dir/toolchain-mipsel_1004kc+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/include/bits/pthreadtypes.h \
+ /home/zt/chaos_calmer/staging_dir/toolchain-mipsel_1004kc+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/include/endian.h \
+ /home/zt/chaos_calmer/staging_dir/toolchain-mipsel_1004kc+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/include/bits/endian.h \
+ /home/zt/chaos_calmer/staging_dir/toolchain-mipsel_1004kc+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/include/byteswap.h \
+ /home/zt/chaos_calmer/staging_dir/toolchain-mipsel_1004kc+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/include/bits/byteswap.h \
+ /home/zt/chaos_calmer/staging_dir/toolchain-mipsel_1004kc+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/include/bits/byteswap-common.h \
+ /home/zt/chaos_calmer/staging_dir/toolchain-mipsel_1004kc+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/include/sgidefs.h \
+ /home/zt/chaos_calmer/staging_dir/toolchain-mipsel_1004kc+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/include/stdio.h \
+ /home/zt/chaos_calmer/staging_dir/toolchain-mipsel_1004kc+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/include/bits/uClibc_stdio.h \
+ /home/zt/chaos_calmer/staging_dir/toolchain-mipsel_1004kc+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/include/wchar.h \
+ /home/zt/chaos_calmer/staging_dir/toolchain-mipsel_1004kc+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/include/bits/uClibc_mutex.h \
+ /home/zt/chaos_calmer/staging_dir/toolchain-mipsel_1004kc+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/include/pthread.h \
+ /home/zt/chaos_calmer/staging_dir/toolchain-mipsel_1004kc+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/include/sched.h \
+ /home/zt/chaos_calmer/staging_dir/toolchain-mipsel_1004kc+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/include/bits/sched.h \
+ /home/zt/chaos_calmer/staging_dir/toolchain-mipsel_1004kc+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/include/signal.h \
+ /home/zt/chaos_calmer/staging_dir/toolchain-mipsel_1004kc+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/include/bits/sigset.h \
+ /home/zt/chaos_calmer/staging_dir/toolchain-mipsel_1004kc+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/include/bits/setjmp.h \
+ /home/zt/chaos_calmer/staging_dir/toolchain-mipsel_1004kc+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/include/bits/uClibc_pthread.h \
+ /home/zt/chaos_calmer/staging_dir/toolchain-mipsel_1004kc+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/lib/gcc/mipsel-openwrt-linux-uclibc/4.8.3/include/stdarg.h \
+ /home/zt/chaos_calmer/staging_dir/toolchain-mipsel_1004kc+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/include/bits/stdio_lim.h \
+ ../libsodium/src/libsodium/include/sodium.h \
+ ../libsodium/src/libsodium/include/sodium/core.h \
+ ../libsodium/src/libsodium/include/sodium/export.h \
+ ../libsodium/src/libsodium/include/sodium/crypto_aead_chacha20poly1305.h \
+ ../libsodium/src/libsodium/include/sodium/crypto_auth.h \
+ ../libsodium/src/libsodium/include/sodium/crypto_auth_hmacsha512256.h \
+ ../libsodium/src/libsodium/include/sodium/crypto_auth_hmacsha512.h \
+ ../libsodium/src/libsodium/include/sodium/crypto_hash_sha512.h \
+ /home/zt/chaos_calmer/staging_dir/toolchain-mipsel_1004kc+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/include/stdlib.h \
+ /home/zt/chaos_calmer/staging_dir/toolchain-mipsel_1004kc+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/include/bits/waitflags.h \
+ /home/zt/chaos_calmer/staging_dir/toolchain-mipsel_1004kc+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/include/bits/waitstatus.h \
+ /home/zt/chaos_calmer/staging_dir/toolchain-mipsel_1004kc+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/include/sys/types.h \
+ /home/zt/chaos_calmer/staging_dir/toolchain-mipsel_1004kc+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/include/sys/select.h \
+ /home/zt/chaos_calmer/staging_dir/toolchain-mipsel_1004kc+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/include/bits/select.h \
+ /home/zt/chaos_calmer/staging_dir/toolchain-mipsel_1004kc+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/include/sys/sysmacros.h \
+ /home/zt/chaos_calmer/staging_dir/toolchain-mipsel_1004kc+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/include/alloca.h \
+ ../libsodium/src/libsodium/include/sodium/crypto_auth_hmacsha256.h \
+ ../libsodium/src/libsodium/include/sodium/crypto_hash_sha256.h \
+ ../libsodium/src/libsodium/include/sodium/crypto_auth_hmacsha512.h \
+ ../libsodium/src/libsodium/include/sodium/crypto_auth_hmacsha512256.h \
+ ../libsodium/src/libsodium/include/sodium/crypto_box.h \
+ ../libsodium/src/libsodium/include/sodium/crypto_box_curve25519xsalsa20poly1305.h \
+ ../libsodium/src/libsodium/include/sodium/crypto_box_curve25519xsalsa20poly1305.h \
+ ../libsodium/src/libsodium/include/sodium/crypto_core_hsalsa20.h \
+ ../libsodium/src/libsodium/include/sodium/crypto_core_salsa20.h \
+ ../libsodium/src/libsodium/include/sodium/crypto_core_salsa2012.h \
+ ../libsodium/src/libsodium/include/sodium/crypto_core_salsa208.h \
+ ../libsodium/src/libsodium/include/sodium/crypto_generichash.h \
+ ../libsodium/src/libsodium/include/sodium/crypto_generichash_blake2b.h \
+ ../libsodium/src/libsodium/include/sodium/crypto_generichash_blake2b.h \
+ ../libsodium/src/libsodium/include/sodium/crypto_hash.h \
+ ../libsodium/src/libsodium/include/sodium/crypto_hash_sha256.h \
+ ../libsodium/src/libsodium/include/sodium/crypto_hash_sha512.h \
+ ../libsodium/src/libsodium/include/sodium/crypto_onetimeauth.h \
+ ../libsodium/src/libsodium/include/sodium/crypto_onetimeauth_poly1305.h \
+ ../libsodium/src/libsodium/include/sodium/crypto_onetimeauth_poly1305.h \
+ ../libsodium/src/libsodium/include/sodium/crypto_pwhash_scryptsalsa208sha256.h \
+ ../libsodium/src/libsodium/include/sodium/crypto_scalarmult.h \
+ ../libsodium/src/libsodium/include/sodium/crypto_scalarmult_curve25519.h \
+ ../libsodium/src/libsodium/include/sodium/crypto_scalarmult_curve25519.h \
+ ../libsodium/src/libsodium/include/sodium/crypto_secretbox.h \
+ ../libsodium/src/libsodium/include/sodium/crypto_secretbox_xsalsa20poly1305.h \
+ ../libsodium/src/libsodium/include/sodium/crypto_secretbox_xsalsa20poly1305.h \
+ ../libsodium/src/libsodium/include/sodium/crypto_shorthash.h \
+ ../libsodium/src/libsodium/include/sodium/crypto_shorthash_siphash24.h \
+ ../libsodium/src/libsodium/include/sodium/crypto_shorthash_siphash24.h \
+ ../libsodium/src/libsodium/include/sodium/crypto_sign.h \
+ ../libsodium/src/libsodium/include/sodium/crypto_sign_ed25519.h \
+ ../libsodium/src/libsodium/include/sodium/crypto_sign_ed25519.h \
+ ../libsodium/src/libsodium/include/sodium/crypto_stream.h \
+ ../libsodium/src/libsodium/include/sodium/crypto_stream_xsalsa20.h \
+ ../libsodium/src/libsodium/include/sodium/crypto_stream_aes128ctr.h \
+ ../libsodium/src/libsodium/include/sodium/crypto_stream_chacha20.h \
+ ../libsodium/src/libsodium/include/sodium/crypto_stream_salsa20.h \
+ ../libsodium/src/libsodium/include/sodium/crypto_stream_salsa2012.h \
+ ../libsodium/src/libsodium/include/sodium/crypto_stream_salsa208.h \
+ ../libsodium/src/libsodium/include/sodium/crypto_stream_xsalsa20.h \
+ ../libsodium/src/libsodium/include/sodium/crypto_verify_16.h \
+ ../libsodium/src/libsodium/include/sodium/crypto_verify_32.h \
+ ../libsodium/src/libsodium/include/sodium/crypto_verify_64.h \
+ ../libsodium/src/libsodium/include/sodium/randombytes.h \
+ ../libsodium/src/libsodium/include/sodium/randombytes_salsa20_random.h \
+ ../libsodium/src/libsodium/include/sodium/randombytes_sysrandom.h \
+ ../libsodium/src/libsodium/include/sodium/runtime.h \
+ ../libsodium/src/libsodium/include/sodium/utils.h \
+ ../libsodium/src/libsodium/include/sodium/version.h \
+ /home/zt/chaos_calmer/staging_dir/toolchain-mipsel_1004kc+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/include/arpa/inet.h \
+ /home/zt/chaos_calmer/staging_dir/toolchain-mipsel_1004kc+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/include/netinet/in.h \
+ /home/zt/chaos_calmer/staging_dir/toolchain-mipsel_1004kc+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/include/sys/socket.h \
+ /home/zt/chaos_calmer/staging_dir/toolchain-mipsel_1004kc+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/include/sys/uio.h \
+ /home/zt/chaos_calmer/staging_dir/toolchain-mipsel_1004kc+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/include/bits/uio.h \
+ /home/zt/chaos_calmer/staging_dir/toolchain-mipsel_1004kc+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/include/bits/socket.h \
+ /home/zt/chaos_calmer/staging_dir/toolchain-mipsel_1004kc+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/lib/gcc/mipsel-openwrt-linux-uclibc/4.8.3/include-fixed/limits.h \
+ /home/zt/chaos_calmer/staging_dir/toolchain-mipsel_1004kc+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/lib/gcc/mipsel-openwrt-linux-uclibc/4.8.3/include-fixed/syslimits.h \
+ /home/zt/chaos_calmer/staging_dir/toolchain-mipsel_1004kc+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/include/limits.h \
+ /home/zt/chaos_calmer/staging_dir/toolchain-mipsel_1004kc+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/include/bits/posix1_lim.h \
+ /home/zt/chaos_calmer/staging_dir/toolchain-mipsel_1004kc+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/include/bits/local_lim.h \
+ /home/zt/chaos_calmer/staging_dir/toolchain-mipsel_1004kc+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/include/linux/limits.h \
+ /home/zt/chaos_calmer/staging_dir/toolchain-mipsel_1004kc+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/include/bits/uClibc_local_lim.h \
+ /home/zt/chaos_calmer/staging_dir/toolchain-mipsel_1004kc+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/include/bits/posix2_lim.h \
+ /home/zt/chaos_calmer/staging_dir/toolchain-mipsel_1004kc+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/include/bits/xopen_lim.h \
+ /home/zt/chaos_calmer/staging_dir/toolchain-mipsel_1004kc+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/include/bits/sockaddr.h \
+ /home/zt/chaos_calmer/staging_dir/toolchain-mipsel_1004kc+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/include/asm/socket.h \
+ /home/zt/chaos_calmer/staging_dir/toolchain-mipsel_1004kc+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/include/asm/sockios.h \
+ /home/zt/chaos_calmer/staging_dir/toolchain-mipsel_1004kc+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/include/asm/ioctl.h \
+ /home/zt/chaos_calmer/staging_dir/toolchain-mipsel_1004kc+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/include/asm-generic/ioctl.h \
+ /home/zt/chaos_calmer/staging_dir/toolchain-mipsel_1004kc+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/include/bits/in.h \
+ hmac-sha1.h cache.h uthash.h encrypt.h \
+ /home/zt/chaos_calmer/staging_dir/target-mipsel_1004kc+dsp_uClibc-0.9.33.2/usr/include/polarssl/cipher.h \
+ /home/zt/chaos_calmer/staging_dir/target-mipsel_1004kc+dsp_uClibc-0.9.33.2/usr/include/polarssl/md.h \
+ utils.h \
+ /home/zt/chaos_calmer/staging_dir/toolchain-mipsel_1004kc+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/include/syslog.h \
+ /home/zt/chaos_calmer/staging_dir/toolchain-mipsel_1004kc+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/include/sys/syslog.h \
+ jconf.h
+
+/home/zt/chaos_calmer/staging_dir/toolchain-mipsel_1004kc+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/lib/gcc/mipsel-openwrt-linux-uclibc/4.8.3/include/stdint.h:
+
+/home/zt/chaos_calmer/staging_dir/toolchain-mipsel_1004kc+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/include/stdint.h:
+
+/home/zt/chaos_calmer/staging_dir/toolchain-mipsel_1004kc+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/include/features.h:
+
+/home/zt/chaos_calmer/staging_dir/toolchain-mipsel_1004kc+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/include/bits/uClibc_config.h:
+
+/home/zt/chaos_calmer/staging_dir/toolchain-mipsel_1004kc+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/include/sys/cdefs.h:
+
+/home/zt/chaos_calmer/staging_dir/toolchain-mipsel_1004kc+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/include/bits/wchar.h:
+
+/home/zt/chaos_calmer/staging_dir/toolchain-mipsel_1004kc+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/include/bits/wordsize.h:
+
+../config.h:
+
+/home/zt/chaos_calmer/staging_dir/target-mipsel_1004kc+dsp_uClibc-0.9.33.2/usr/include/polarssl/md5.h:
+
+/home/zt/chaos_calmer/staging_dir/target-mipsel_1004kc+dsp_uClibc-0.9.33.2/usr/include/polarssl/config.h:
+
+/home/zt/chaos_calmer/staging_dir/target-mipsel_1004kc+dsp_uClibc-0.9.33.2/usr/include/polarssl/check_config.h:
+
+/home/zt/chaos_calmer/staging_dir/toolchain-mipsel_1004kc+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/include/string.h:
+
+/home/zt/chaos_calmer/staging_dir/toolchain-mipsel_1004kc+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/lib/gcc/mipsel-openwrt-linux-uclibc/4.8.3/include/stddef.h:
+
+/home/zt/chaos_calmer/staging_dir/toolchain-mipsel_1004kc+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/include/inttypes.h:
+
+/home/zt/chaos_calmer/staging_dir/target-mipsel_1004kc+dsp_uClibc-0.9.33.2/usr/include/polarssl/entropy.h:
+
+/home/zt/chaos_calmer/staging_dir/target-mipsel_1004kc+dsp_uClibc-0.9.33.2/usr/include/polarssl/sha512.h:
+
+/home/zt/chaos_calmer/staging_dir/target-mipsel_1004kc+dsp_uClibc-0.9.33.2/usr/include/polarssl/ctr_drbg.h:
+
+/home/zt/chaos_calmer/staging_dir/target-mipsel_1004kc+dsp_uClibc-0.9.33.2/usr/include/polarssl/aes.h:
+
+/home/zt/chaos_calmer/staging_dir/target-mipsel_1004kc+dsp_uClibc-0.9.33.2/usr/include/polarssl/version.h:
+
+/home/zt/chaos_calmer/staging_dir/toolchain-mipsel_1004kc+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/include/time.h:
+
+/home/zt/chaos_calmer/staging_dir/toolchain-mipsel_1004kc+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/include/bits/time.h:
+
+/home/zt/chaos_calmer/staging_dir/toolchain-mipsel_1004kc+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/include/bits/uClibc_clk_tck.h:
+
+/home/zt/chaos_calmer/staging_dir/toolchain-mipsel_1004kc+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/include/bits/types.h:
+
+/home/zt/chaos_calmer/staging_dir/toolchain-mipsel_1004kc+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/include/bits/typesizes.h:
+
+/home/zt/chaos_calmer/staging_dir/toolchain-mipsel_1004kc+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/include/bits/pthreadtypes.h:
+
+/home/zt/chaos_calmer/staging_dir/toolchain-mipsel_1004kc+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/include/endian.h:
+
+/home/zt/chaos_calmer/staging_dir/toolchain-mipsel_1004kc+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/include/bits/endian.h:
+
+/home/zt/chaos_calmer/staging_dir/toolchain-mipsel_1004kc+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/include/byteswap.h:
+
+/home/zt/chaos_calmer/staging_dir/toolchain-mipsel_1004kc+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/include/bits/byteswap.h:
+
+/home/zt/chaos_calmer/staging_dir/toolchain-mipsel_1004kc+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/include/bits/byteswap-common.h:
+
+/home/zt/chaos_calmer/staging_dir/toolchain-mipsel_1004kc+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/include/sgidefs.h:
+
+/home/zt/chaos_calmer/staging_dir/toolchain-mipsel_1004kc+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/include/stdio.h:
+
+/home/zt/chaos_calmer/staging_dir/toolchain-mipsel_1004kc+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/include/bits/uClibc_stdio.h:
+
+/home/zt/chaos_calmer/staging_dir/toolchain-mipsel_1004kc+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/include/wchar.h:
+
+/home/zt/chaos_calmer/staging_dir/toolchain-mipsel_1004kc+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/include/bits/uClibc_mutex.h:
+
+/home/zt/chaos_calmer/staging_dir/toolchain-mipsel_1004kc+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/include/pthread.h:
+
+/home/zt/chaos_calmer/staging_dir/toolchain-mipsel_1004kc+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/include/sched.h:
+
+/home/zt/chaos_calmer/staging_dir/toolchain-mipsel_1004kc+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/include/bits/sched.h:
+
+/home/zt/chaos_calmer/staging_dir/toolchain-mipsel_1004kc+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/include/signal.h:
+
+/home/zt/chaos_calmer/staging_dir/toolchain-mipsel_1004kc+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/include/bits/sigset.h:
+
+/home/zt/chaos_calmer/staging_dir/toolchain-mipsel_1004kc+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/include/bits/setjmp.h:
+
+/home/zt/chaos_calmer/staging_dir/toolchain-mipsel_1004kc+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/include/bits/uClibc_pthread.h:
+
+/home/zt/chaos_calmer/staging_dir/toolchain-mipsel_1004kc+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/lib/gcc/mipsel-openwrt-linux-uclibc/4.8.3/include/stdarg.h:
+
+/home/zt/chaos_calmer/staging_dir/toolchain-mipsel_1004kc+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/include/bits/stdio_lim.h:
+
+../libsodium/src/libsodium/include/sodium.h:
+
+../libsodium/src/libsodium/include/sodium/core.h:
+
+../libsodium/src/libsodium/include/sodium/export.h:
+
+../libsodium/src/libsodium/include/sodium/crypto_aead_chacha20poly1305.h:
+
+../libsodium/src/libsodium/include/sodium/crypto_auth.h:
+
+../libsodium/src/libsodium/include/sodium/crypto_auth_hmacsha512256.h:
+
+../libsodium/src/libsodium/include/sodium/crypto_auth_hmacsha512.h:
+
+../libsodium/src/libsodium/include/sodium/crypto_hash_sha512.h:
+
+/home/zt/chaos_calmer/staging_dir/toolchain-mipsel_1004kc+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/include/stdlib.h:
+
+/home/zt/chaos_calmer/staging_dir/toolchain-mipsel_1004kc+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/include/bits/waitflags.h:
+
+/home/zt/chaos_calmer/staging_dir/toolchain-mipsel_1004kc+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/include/bits/waitstatus.h:
+
+/home/zt/chaos_calmer/staging_dir/toolchain-mipsel_1004kc+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/include/sys/types.h:
+
+/home/zt/chaos_calmer/staging_dir/toolchain-mipsel_1004kc+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/include/sys/select.h:
+
+/home/zt/chaos_calmer/staging_dir/toolchain-mipsel_1004kc+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/include/bits/select.h:
+
+/home/zt/chaos_calmer/staging_dir/toolchain-mipsel_1004kc+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/include/sys/sysmacros.h:
+
+/home/zt/chaos_calmer/staging_dir/toolchain-mipsel_1004kc+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/include/alloca.h:
+
+../libsodium/src/libsodium/include/sodium/crypto_auth_hmacsha256.h:
+
+../libsodium/src/libsodium/include/sodium/crypto_hash_sha256.h:
+
+../libsodium/src/libsodium/include/sodium/crypto_auth_hmacsha512.h:
+
+../libsodium/src/libsodium/include/sodium/crypto_auth_hmacsha512256.h:
+
+../libsodium/src/libsodium/include/sodium/crypto_box.h:
+
+../libsodium/src/libsodium/include/sodium/crypto_box_curve25519xsalsa20poly1305.h:
+
+../libsodium/src/libsodium/include/sodium/crypto_box_curve25519xsalsa20poly1305.h:
+
+../libsodium/src/libsodium/include/sodium/crypto_core_hsalsa20.h:
+
+../libsodium/src/libsodium/include/sodium/crypto_core_salsa20.h:
+
+../libsodium/src/libsodium/include/sodium/crypto_core_salsa2012.h:
+
+../libsodium/src/libsodium/include/sodium/crypto_core_salsa208.h:
+
+../libsodium/src/libsodium/include/sodium/crypto_generichash.h:
+
+../libsodium/src/libsodium/include/sodium/crypto_generichash_blake2b.h:
+
+../libsodium/src/libsodium/include/sodium/crypto_generichash_blake2b.h:
+
+../libsodium/src/libsodium/include/sodium/crypto_hash.h:
+
+../libsodium/src/libsodium/include/sodium/crypto_hash_sha256.h:
+
+../libsodium/src/libsodium/include/sodium/crypto_hash_sha512.h:
+
+../libsodium/src/libsodium/include/sodium/crypto_onetimeauth.h:
+
+../libsodium/src/libsodium/include/sodium/crypto_onetimeauth_poly1305.h:
+
+../libsodium/src/libsodium/include/sodium/crypto_onetimeauth_poly1305.h:
+
+../libsodium/src/libsodium/include/sodium/crypto_pwhash_scryptsalsa208sha256.h:
+
+../libsodium/src/libsodium/include/sodium/crypto_scalarmult.h:
+
+../libsodium/src/libsodium/include/sodium/crypto_scalarmult_curve25519.h:
+
+../libsodium/src/libsodium/include/sodium/crypto_scalarmult_curve25519.h:
+
+../libsodium/src/libsodium/include/sodium/crypto_secretbox.h:
+
+../libsodium/src/libsodium/include/sodium/crypto_secretbox_xsalsa20poly1305.h:
+
+../libsodium/src/libsodium/include/sodium/crypto_secretbox_xsalsa20poly1305.h:
+
+../libsodium/src/libsodium/include/sodium/crypto_shorthash.h:
+
+../libsodium/src/libsodium/include/sodium/crypto_shorthash_siphash24.h:
+
+../libsodium/src/libsodium/include/sodium/crypto_shorthash_siphash24.h:
+
+../libsodium/src/libsodium/include/sodium/crypto_sign.h:
+
+../libsodium/src/libsodium/include/sodium/crypto_sign_ed25519.h:
+
+../libsodium/src/libsodium/include/sodium/crypto_sign_ed25519.h:
+
+../libsodium/src/libsodium/include/sodium/crypto_stream.h:
+
+../libsodium/src/libsodium/include/sodium/crypto_stream_xsalsa20.h:
+
+../libsodium/src/libsodium/include/sodium/crypto_stream_aes128ctr.h:
+
+../libsodium/src/libsodium/include/sodium/crypto_stream_chacha20.h:
+
+../libsodium/src/libsodium/include/sodium/crypto_stream_salsa20.h:
+
+../libsodium/src/libsodium/include/sodium/crypto_stream_salsa2012.h:
+
+../libsodium/src/libsodium/include/sodium/crypto_stream_salsa208.h:
+
+../libsodium/src/libsodium/include/sodium/crypto_stream_xsalsa20.h:
+
+../libsodium/src/libsodium/include/sodium/crypto_verify_16.h:
+
+../libsodium/src/libsodium/include/sodium/crypto_verify_32.h:
+
+../libsodium/src/libsodium/include/sodium/crypto_verify_64.h:
+
+../libsodium/src/libsodium/include/sodium/randombytes.h:
+
+../libsodium/src/libsodium/include/sodium/randombytes_salsa20_random.h:
+
+../libsodium/src/libsodium/include/sodium/randombytes_sysrandom.h:
+
+../libsodium/src/libsodium/include/sodium/runtime.h:
+
+../libsodium/src/libsodium/include/sodium/utils.h:
+
+../libsodium/src/libsodium/include/sodium/version.h:
+
+/home/zt/chaos_calmer/staging_dir/toolchain-mipsel_1004kc+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/include/arpa/inet.h:
+
+/home/zt/chaos_calmer/staging_dir/toolchain-mipsel_1004kc+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/include/netinet/in.h:
+
+/home/zt/chaos_calmer/staging_dir/toolchain-mipsel_1004kc+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/include/sys/socket.h:
+
+/home/zt/chaos_calmer/staging_dir/toolchain-mipsel_1004kc+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/include/sys/uio.h:
+
+/home/zt/chaos_calmer/staging_dir/toolchain-mipsel_1004kc+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/include/bits/uio.h:
+
+/home/zt/chaos_calmer/staging_dir/toolchain-mipsel_1004kc+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/include/bits/socket.h:
+
+/home/zt/chaos_calmer/staging_dir/toolchain-mipsel_1004kc+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/lib/gcc/mipsel-openwrt-linux-uclibc/4.8.3/include-fixed/limits.h:
+
+/home/zt/chaos_calmer/staging_dir/toolchain-mipsel_1004kc+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/lib/gcc/mipsel-openwrt-linux-uclibc/4.8.3/include-fixed/syslimits.h:
+
+/home/zt/chaos_calmer/staging_dir/toolchain-mipsel_1004kc+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/include/limits.h:
+
+/home/zt/chaos_calmer/staging_dir/toolchain-mipsel_1004kc+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/include/bits/posix1_lim.h:
+
+/home/zt/chaos_calmer/staging_dir/toolchain-mipsel_1004kc+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/include/bits/local_lim.h:
+
+/home/zt/chaos_calmer/staging_dir/toolchain-mipsel_1004kc+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/include/linux/limits.h:
+
+/home/zt/chaos_calmer/staging_dir/toolchain-mipsel_1004kc+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/include/bits/uClibc_local_lim.h:
+
+/home/zt/chaos_calmer/staging_dir/toolchain-mipsel_1004kc+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/include/bits/posix2_lim.h:
+
+/home/zt/chaos_calmer/staging_dir/toolchain-mipsel_1004kc+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/include/bits/xopen_lim.h:
+
+/home/zt/chaos_calmer/staging_dir/toolchain-mipsel_1004kc+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/include/bits/sockaddr.h:
+
+/home/zt/chaos_calmer/staging_dir/toolchain-mipsel_1004kc+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/include/asm/socket.h:
+
+/home/zt/chaos_calmer/staging_dir/toolchain-mipsel_1004kc+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/include/asm/sockios.h:
+
+/home/zt/chaos_calmer/staging_dir/toolchain-mipsel_1004kc+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/include/asm/ioctl.h:
+
+/home/zt/chaos_calmer/staging_dir/toolchain-mipsel_1004kc+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/include/asm-generic/ioctl.h:
+
+/home/zt/chaos_calmer/staging_dir/toolchain-mipsel_1004kc+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/include/bits/in.h:
+
+hmac-sha1.h:
+
+cache.h:
+
+uthash.h:
+
+encrypt.h:
+
+/home/zt/chaos_calmer/staging_dir/target-mipsel_1004kc+dsp_uClibc-0.9.33.2/usr/include/polarssl/cipher.h:
+
+/home/zt/chaos_calmer/staging_dir/target-mipsel_1004kc+dsp_uClibc-0.9.33.2/usr/include/polarssl/md.h:
+
+utils.h:
+
+/home/zt/chaos_calmer/staging_dir/toolchain-mipsel_1004kc+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/include/syslog.h:
+
+/home/zt/chaos_calmer/staging_dir/toolchain-mipsel_1004kc+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/include/sys/syslog.h:
+
+jconf.h:

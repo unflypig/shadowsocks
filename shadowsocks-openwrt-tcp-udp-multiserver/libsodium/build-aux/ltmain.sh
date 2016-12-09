@@ -1,0 +1,1 @@
+/home/zt/chaos_calmer/staging_dir/target-mipsel_1004kc+dsp_uClibc-0.9.33.2/../host/share/libtool/config/ltmain.sh

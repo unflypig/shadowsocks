@@ -1,0 +1,11 @@
+Package: shadowsocks-libev-spec-polarssl
+Version: 2.4.0-1
+Depends: libc, libpolarssl, libpthread, ipset, ip, iptables-mod-tproxy
+Source: package/shadowsocks-libev
+License: GPLv3
+LicenseFiles: LICENSE
+Section: net
+Maintainer: Max Lv <max.c.lv@gmail.com>
+Architecture: ramips_1004kc
+Installed-Size: 118618
+Description:  Shadowsocks-libev is a lightweight secured socks5 proxy for embedded devices and low end boxes.

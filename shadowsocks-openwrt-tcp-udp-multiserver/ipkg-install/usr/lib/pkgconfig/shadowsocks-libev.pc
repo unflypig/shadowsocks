@@ -1,0 +1,12 @@
+prefix=/usr
+exec_prefix=/usr
+libdir=${exec_prefix}/lib
+includedir=${prefix}/include
+
+Name: shadowsocks-libev
+Description: a lightweight secured socks5 proxy
+URL: http://shadowsocks.org
+Version: 2.4.0
+Requires:
+Cflags: -I${includedir}
+Libs: -L${libdir} -lshadowsocks -lcrypto
